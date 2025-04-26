@@ -15,7 +15,7 @@ LICENSE              # License information
 README.md            # Project documentation
 requirements.txt     # Python dependencies
 
-template.py          # Template for chatbot responses
+template.py          # Template for project structure
 
 database/            # Database files
     __init__.py
