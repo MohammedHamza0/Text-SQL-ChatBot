@@ -47,7 +47,7 @@ src/                 # Source code
 ## Usage
 1. Run the main application:
    ```bash
-   python frontend.py
+   streamlir run frontend.py
    ```
 2. Interact with the chatbot to query or manage your SQL database.
 
