@@ -1,14 +1,17 @@
 import os
 from pathlib import Path
 
-
 list_of_files = [
      ".env",
      ".env.example",
      "requirements.txt",
      "src/__init__.py",
-     "src/sql.py",
+     "src/create_sql_db.py",
+     "src/helpers.py",
+     "src/config/__init__.py",
+     "src/config/config.py",
      "database/__init__.py",
+     "frontend.py"
 ]
 
 
