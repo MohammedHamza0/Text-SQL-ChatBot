@@ -4,12 +4,18 @@
 LLM_PROMPT = """    You are an advanced SQL query generator.
                     Given a user's natural language question, convert it into a syntactically correct and efficient SQL query based on the following database schema:
 
-                    Table: students
+                    Table1: students
 
-                    Columns:
+                    Columns for table1:
                     name (VARCHAR)
                     age (INTEGER)
                     grade (VARCHAR)
+                    
+                    Table2: doctors
+                    Columns for table2:
+                    name (VARCHAR)
+                    age (INTEGER) 
+                    specialization (VARCHAR)
                     
                     Instructions:
                     Focus strictly on generating SQL code only.
